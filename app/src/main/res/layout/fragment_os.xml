@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".OsFragment">
+
+    <TextView
+        android:id="@+id/codeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="Code  name:"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/baseOs"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Os:"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:id="@+id/incremental"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incremental:"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:id="@+id/release"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Release:"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:id="@+id/sdk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SDK:"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:id="@+id/security_patch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Security Patch:"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+
+</LinearLayout>

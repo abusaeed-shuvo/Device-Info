@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.deviceinfo.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/batteryFragment"
+        android:name="com.example.deviceinfo.BatteryFragment"
+        android:label="fragment_battery"
+        tools:layout="@layout/fragment_battery" />
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.deviceinfo.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/osFragment"
+        android:name="com.example.deviceinfo.OsFragment"
+        android:label="fragment_os"
+        tools:layout="@layout/fragment_os" />
+</navigation>
