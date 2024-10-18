@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android = "http://schemas.android.com/apk/res/android"
+			xmlns:tools = "http://schemas.android.com/tools"
+			android:layout_width = "match_parent"
+			android:layout_height = "match_parent"
+			tools:context = ".ui.system.SystemFragment">
+
+	<LinearLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:orientation = "vertical"
+		android:padding = "10dp">
+
+		<TextView
+			android:id = "@+id/systemAndroidVersionTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Android Version" />
+
+		<TextView
+			android:id = "@+id/systemApiLevelTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "API Level" />
+
+		<TextView
+			android:id = "@+id/systemSecurityPatchLevelTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Security Patch Level" />
+
+		<TextView
+			android:id = "@+id/systemBootloaderTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Bootloader" />
+
+		<TextView
+			android:id = "@+id/systemBuildIdTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Build ID" />
+
+		<TextView
+			android:id = "@+id/systemJavaVMTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Java VM" />
+
+		<TextView
+			android:id = "@+id/systemOpenGLESTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "OpenGL ES" />
+
+		<TextView
+			android:id = "@+id/systemKernelArchitectureTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Kernel Architecture" />
+
+		<TextView
+			android:id = "@+id/systemKernelVersionTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Kernel Version" />
+
+		<TextView
+			android:id = "@+id/systemRootAccessTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Root Access" />
+
+		<TextView
+			android:id = "@+id/systemGooglePlayServices"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Google Play Services" />
+
+		<TextView
+			android:id = "@+id/systemUptimeTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "System Uptime" />
+
+	</LinearLayout>
+
+
+</ScrollView>

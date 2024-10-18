@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android = "http://schemas.android.com/apk/res/android"
+			xmlns:tools = "http://schemas.android.com/tools"
+			android:layout_width = "match_parent"
+			android:layout_height = "match_parent"
+			tools:context = ".ui.soc.SocFragment">
+
+	<LinearLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "match_parent"
+		android:orientation = "vertical"
+		android:padding = "10dp">
+
+		<ImageView
+			android:layout_width = "wrap_content"
+			android:layout_height = "wrap_content"
+			android:layout_gravity = "center"
+			android:layout_margin = "10dp"
+			android:background = "#7E55C5"
+			android:contentDescription = "soc icon"
+			android:padding = "5dp"
+			android:src = "@drawable/cpu_z_svgrepo_com" />
+
+		<TextView
+			android:id = "@+id/socNameTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "SOC name" />
+
+		<TextView
+			android:id = "@+id/socModelTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "SOC model" />
+
+		<TextView
+			android:id = "@+id/socCoreNumbers"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "SOC Core numbers" />
+
+		<TextView
+			android:id = "@+id/socArchitectureTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "SOC Architecture" />
+
+		<TextView
+			android:id = "@+id/socRevisionTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "SOC Revision" />
+
+		<TextView
+			android:id = "@+id/socProcessTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "SOC Process" />
+
+		<TextView
+			android:id = "@+id/socClockSpeedTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "SOC Clock Speed" />
+
+		<TextView
+			android:id = "@+id/socGpuVendorTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "GPU vendor" />
+
+		<TextView
+			android:id = "@+id/socGpuRendererTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "GPU Renderer" />
+
+		<TextView
+			android:id = "@+id/socGpuLoadTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "GPU Load" />
+
+		<TextView
+			android:id = "@+id/socScalingGovernorTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Scaling Governor" />
+
+	</LinearLayout>
+
+</ScrollView>

@@ -1,28 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<navigation xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main_nav"
-    app:startDestination="@id/homeFragment">
+<navigation xmlns:android = "http://schemas.android.com/apk/res/android"
+			xmlns:app = "http://schemas.android.com/apk/res-auto"
+			xmlns:tools = "http://schemas.android.com/tools"
+			android:id = "@+id/main_nav"
+			app:startDestination = "@id/systemFragment">
 
-    <fragment
-        android:id="@+id/homeFragment"
-        android:name="com.example.deviceinfo.HomeFragment"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home" />
-    <fragment
-        android:id="@+id/batteryFragment"
-        android:name="com.example.deviceinfo.BatteryFragment"
-        android:label="fragment_battery"
-        tools:layout="@layout/fragment_battery" />
-    <fragment
-        android:id="@+id/aboutFragment"
-        android:name="com.example.deviceinfo.AboutFragment"
-        android:label="fragment_about"
-        tools:layout="@layout/fragment_about" />
-    <fragment
-        android:id="@+id/osFragment"
-        android:name="com.example.deviceinfo.OsFragment"
-        android:label="fragment_os"
-        tools:layout="@layout/fragment_os" />
+	<fragment
+		android:id = "@+id/batteryFragment"
+		android:name = "com.example.deviceinfo.ui.battery.BatteryFragment"
+		android:label = "Battery"
+		tools:layout = "@layout/fragment_battery" />
+	<fragment
+		android:id = "@+id/aboutFragment"
+		android:name = "com.example.deviceinfo.ui.about.AboutFragment"
+		android:label = "About"
+		tools:layout = "@layout/fragment_about" />
+	<fragment
+		android:id = "@+id/socFragment"
+		android:name = "com.example.deviceinfo.ui.soc.SocFragment"
+		android:label = "SOC"
+		tools:layout = "@layout/fragment_soc" />
+	<fragment
+		android:id = "@+id/deviceFragment"
+		android:name = "com.example.deviceinfo.ui.device.DeviceFragment"
+		android:label = "Device"
+		tools:layout = "@layout/fragment_device" />
+	<fragment
+		android:id = "@+id/sensorsFragment"
+		android:name = "com.example.deviceinfo.ui.sensors.SensorsFragment"
+		android:label = "Sensors"
+		tools:layout = "@layout/fragment_sensors" />
+	<fragment
+		android:id = "@+id/systemFragment"
+		android:name = "com.example.deviceinfo.ui.system.SystemFragment"
+		android:label = "System"
+		tools:layout = "@layout/fragment_system" />
+	<fragment
+		android:id = "@+id/thermalFragment"
+		android:name = "com.example.deviceinfo.ui.thermal.ThermalFragment"
+		android:label = "Thermal"
+		tools:layout = "@layout/fragment_thermal" />
 </navigation>

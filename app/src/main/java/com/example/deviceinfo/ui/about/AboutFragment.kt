@@ -1,4 +1,4 @@
-package com.example.deviceinfo
+package com.example.deviceinfo.ui.about
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import androidx.fragment.app.Fragment
 import com.example.deviceinfo.databinding.FragmentAboutBinding
 
 class AboutFragment : Fragment() {
-    lateinit var binding: FragmentAboutBinding
+    private lateinit var binding: FragmentAboutBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

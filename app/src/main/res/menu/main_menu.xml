@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android = "http://schemas.android.com/apk/res/android">
 
-    <item
-        android:id="@+id/homeFragment"
-        android:icon="@drawable/baseline_home_24"
-        android:title="Home" />
-    <item
-        android:id="@+id/osFragment"
-        android:icon="@drawable/baseline_android_24"
-        android:title="OS" />
-    <item
-        android:id="@+id/batteryFragment"
-        android:icon="@drawable/baseline_battery_4_bar_24"
-        android:title="Battery" />
-    <item
-        android:id="@+id/aboutFragment"
-        android:icon="@drawable/baseline_info_24"
-        android:title="About" />
+	<item
+		android:id = "@+id/socFragment"
+		android:icon = "@drawable/cpu_z_svgrepo_com"
+		android:title = "SOC" />
+	<item
+		android:id = "@+id/deviceFragment"
+		android:icon = "@drawable/device_info_hw_svgrepo_com"
+		android:title = "Device" />
+	<item
+		android:id = "@+id/systemFragment"
+		android:icon = "@drawable/system_settings_svgrepo_com"
+		android:title = "System" />
+
+	<item
+		android:id = "@+id/batteryFragment"
+		android:icon = "@drawable/battery_empty_svgrepo_com"
+		android:title = "Battery" />
+	<item
+		android:id = "@+id/thermalFragment"
+		android:icon = "@drawable/thermometer_thermometer_svgrepo_com"
+		android:title = "Thermal" />
+	<item
+		android:id = "@+id/sensorsFragment"
+		android:icon = "@drawable/electrical_sensor_svgrepo_com"
+		android:title = "Sensors" />
+	<item
+		android:id = "@+id/aboutFragment"
+		android:icon = "@drawable/baseline_info_24"
+		android:title = "About" />
 
 </menu>

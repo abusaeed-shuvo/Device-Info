@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android = "http://schemas.android.com/apk/res/android"
+			  xmlns:tools = "http://schemas.android.com/tools"
+			  android:layout_width = "match_parent"
+			  android:layout_height = "match_parent"
+
+			  tools:context = ".ui.device.DeviceFragment">
+<LinearLayout
+	android:layout_width = "match_parent"
+	android:layout_height = "match_parent"
+	android:orientation = "vertical"
+	android:padding = "10dp">
+
+
+
+
+
+	<TextView
+		android:id = "@+id/deviceModelTV"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:padding = "5dp"
+		android:text = "Device Model" />
+
+	<TextView
+		android:id = "@+id/deviceManufacturerTV"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:padding = "5dp"
+		android:text = "Device Manufacturer" />
+
+	<TextView
+		android:id = "@+id/deviceBoardTV"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:padding = "5dp"
+		android:text = "Device Board" />
+
+	<TextView
+		android:id = "@+id/deviceHardwareTV"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:padding = "5dp"
+		android:text = "Device Hardware" />
+
+	<TextView
+		android:id = "@+id/deviceScreenSizeTV"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:padding = "5dp"
+		android:text = "Device Screen Size" />
+
+	<TextView
+		android:id = "@+id/deviceResolutionTV"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:padding = "5dp"
+		android:text = "Device Resolution" />
+
+	<TextView
+		android:id = "@+id/deviceScreenDensityTV"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:padding = "5dp"
+		android:text = "Screen Density" />
+
+	<TextView
+		android:id = "@+id/deviceTotalRAM"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:padding = "5dp"
+		android:text = "Total RAM" />
+
+	<TextView
+		android:id = "@+id/deviceAvailableRAM"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:padding = "5dp"
+		android:text = "Available RAM" />
+
+	<TextView
+		android:id = "@+id/deviceInternalStorageTV"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:padding = "5dp"
+		android:text = "Internal Storage" />
+
+	<TextView
+		android:id = "@+id/deviceAvailableStorage"
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:padding = "5dp"
+		android:text = "Available Storage" />
+
+</LinearLayout>
+</ScrollView>

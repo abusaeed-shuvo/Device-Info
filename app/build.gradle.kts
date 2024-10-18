@@ -48,9 +48,11 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
-    testImplementation(libs.junit)
+	implementation(libs.androidx.drawerlayout)
+	testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.androidx.fragment)
     implementation(libs.androidx.fragment.ktx)
+    implementation(kotlin("script-runtime"))
 }

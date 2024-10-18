@@ -1,44 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/background"
-    android:orientation="vertical"
-    tools:context=".BatteryFragment">
+<ScrollView xmlns:android = "http://schemas.android.com/apk/res/android"
+			xmlns:tools = "http://schemas.android.com/tools"
+			android:layout_width = "match_parent"
+			android:layout_height = "match_parent"
+			android:background = "@color/background"
 
-    <ImageView
-        android:id="@+id/batteryIcon"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:contentDescription="Battery Icon"
-        android:layout_gravity="center"
-        android:layout_margin="10dp"
-        android:padding="5dp"
-        android:src="@drawable/baseline_battery_std_24" />
+			tools:context = ".ui.battery.BatteryFragment">
 
-    <TextView
-        android:id="@+id/batteryPercentage"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="battery percentage"
-        android:textAlignment="center"
-        android:layout_margin="10dp"
-        android:padding="5dp"
-        android:textColor="@color/text"
-        android:textSize="24sp" />
+	<LinearLayout
+		android:layout_width = "match_parent"
+		android:layout_height = "wrap_content"
+		android:orientation = "vertical"
+		android:padding = "5dp">
+
+		<TextView
+			android:id = "@+id/batteryHealthTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Health" />
+
+		<TextView
+			android:id = "@+id/batteryLevelTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Battery Level" />
+
+		<TextView
+			android:id = "@+id/batteryPowerSource"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Power Source" />
+
+		<TextView
+			android:id = "@+id/batteryStatusTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Status" />
+
+		<TextView
+			android:id = "@+id/batteryTechnologyTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Technology" />
+
+		<TextView
+			android:id = "@+id/batteryTemperatureTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Temperature" />
+
+		<TextView
+			android:id = "@+id/batteryVoltageTV"
+			android:layout_width = "match_parent"
+			android:layout_height = "wrap_content"
+			android:padding = "5dp"
+			android:text = "Voltage" />
 
 
-    <TextView
-        android:id="@+id/batteryStatus"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Battery Status:"
-        android:textAlignment="center"
-        android:layout_margin="10dp"
-        android:padding="5dp"
-        android:textColor="@color/text"
-        android:textSize="24sp" />
+	</LinearLayout>
 
-
-</LinearLayout>
+</ScrollView>
